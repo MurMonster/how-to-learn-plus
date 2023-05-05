@@ -3,4 +3,6 @@
     font-size: 60px;
     font-weight: 600;
     color: white;
+    z-index: 1;
+    position: inherit;
   }
