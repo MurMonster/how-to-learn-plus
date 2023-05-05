@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="html,css"
+    <meta name="keywords" content="html,css" />
     <title>Научиться учиться</title>
     <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="./pages/style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <!--mata c  ключом (keywords 5-7)-->
   </head>
   <body>
@@ -129,24 +129,10 @@
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
             <iframe
-              id="ytplayer"
-              type="text/html"
-              width="720"
-              height="405"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0"
-              allowfullscreen
-            >
+              class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU">
             </iframe>
             <iframe
-              id="ytplayer"
-              type="text/html"
-              width="720"
-              height="405"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
-              allowfullscreen
-            >
+              class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY">
             </iframe>
           </div>
         </section>
@@ -328,6 +314,7 @@
                 ><img
                   class="resources__link"
                   src="./images/logo/resources-arzamas.svg"
+                  alt="ЛогоАрзамас"
                 />
               </a>
             </li>
@@ -336,6 +323,7 @@
                 <img
                   class="resources__link"
                   src="./images/logo/resources-n1.svg"
+                  alt="ЛогоN1"
               /></a>
             </li>
             <li>
@@ -343,6 +331,7 @@
                 ><img
                   class="resources__link"
                   src="./images/logo/resources-strelka.svg"
+                  alt="ЛогоСтрелка"
               /></a>
             </li>
             <li>
@@ -350,6 +339,7 @@
                 ><img
                   class="resources__link"
                   src="./images/logo/resources-polka.svg"
+                  alt="ЛогоПолка"
               /></a>
             </li>
           </ul>
@@ -360,7 +350,9 @@
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <div class="logo logo_place_footer"></div>
-            <div class="footer__author">&copy; Анастасия Овчинникова</div>
+            <div class="footer__author">
+              <p>&copy; Анастасия Овчинникова</p>
+            </div>
           </div>
           <div class="footer__column">
             <nav class="footer__column_content_info">
@@ -374,9 +366,39 @@
             <nav class="footer__column_content_social">
               <h3 class="footer__column-heading">Соцсети</h3>
               <ul class="footer__column-links">
-                <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Ютуб"> YouTube</a></li>
-                <li><a class="footer__column-link" href="https://vk.com/xennesty" target="_blank"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ИконкаВК"> ВКонтакте</a></li>
-                <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="ИконкаТикток"> TikTok</a></li>
+                <li>
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      class="footer__social-icon"
+                      src="./images/youtube-icon.svg"
+                      alt="Иконка Ютуб"
+                    />
+                    YouTube</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer__column-link"
+                    href="https://vk.com/xennesty"
+                    target="_blank"
+                    ><img
+                      class="footer__social-icon"
+                      src="./images/vk_color_white.svg"
+                      alt="ИконкаВК"
+                    />
+                    ВКонтакте</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      class="footer__social-icon"
+                      src="./images/tiktok-icon.svg"
+                      alt="ИконкаТикток"
+                    />
+                    TikTok</a
+                  >
+                </li>
               </ul>
             </nav>
           </div>
