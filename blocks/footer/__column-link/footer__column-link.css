@@ -1,12 +1,8 @@
 .footer__column-link{
-    display: block;
-    color: white;
     text-decoration: none;
-    margin-bottom: 10px;
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: normal;
+    color: white;
+    opacity: 1;
 }
-.footer__column-link:last-child{
-    margin-bottom: 0;
+.footer__column-link:hover{
+opacity: 0.5;
 }

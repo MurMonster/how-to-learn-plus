@@ -1,0 +1,12 @@
+.footer__column-item{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.footer__column-item:last-child{
+    margin-bottom: 0;
+}
